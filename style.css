@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: #0f0f0f;
+    color: #fff;
+  }
+  
+  /* HEADER */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 10%;
+    flex-wrap: wrap;
+  }
+  
+  .hero-text h2 {
+    color: #9cff00;
+  }
+  
+  .hero-text h1 {
+    font-size: 40px;
+    color: #9cff00;
+  }
+  
+  .subtitle {
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .hero-text p {
+    max-width: 500px;
+    margin-top: 15px;
+    color: #ccc;
+  }
+  
+  .hero-img img {
+    width: 300px;
+    border-radius: 20px;
+    border-bottom: 8px solid #9cff00;
+  }
+
+  .social{
+    margin-top: 30px;
+  }
+
+  .card {
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+  
+  /* REDES */
+  .social a {
+    margin-right: 15px;
+    font-size: 20px;
+    color: #ccc;
+    transition: 0.3s;
+  }
+  
+  .social a:hover {
+    color: #9cff00;
+  }
+  
+  /* SEÇÕES */
+  section {
+    padding: 60px 10%;
+  }
+  
+  section h2 {
+    margin-bottom: 30px;
+    color: #9cff00;
+  }
+  
+  /* GRID */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  /* CARDS */
+  .card {
+    background: #1a1a1a;
+    padding: 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    border: 1px solid #9cff00;
+  }
+  
+  .card i {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #9cff00;
+  }
+  
+  /* EXPERIÊNCIA */
+  .timeline div {
+    margin-bottom: 20px;
+  }
+  
+  /* CONTATO */
+  .contact {
+    text-align: center;
+  }
+  
+  .contact-box {
+    background: #1a1a1a;
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #2a2a2a;
+  }
+  
+  .contact-text {
+    color: #ccc;
+    margin-bottom: 30px;
+  }
+  
+  .contact-items {
+    margin-bottom: 30px;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .item i {
+    color: #9cff00;
+  }
+  
+  /* FOOTER */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    border-top: 1px solid #9cff00;
+  }
+  
+  /* RESPONSIVO */
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
